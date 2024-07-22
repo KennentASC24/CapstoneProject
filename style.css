@@ -1,0 +1,185 @@
+nav {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(105, 44, 13);
+    border-radius: 75px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a:hover {
+    background-color: rgb(165, 91, 42);
+    padding: 35px;
+    border-radius: 25px;
+    color: wheat;
+}
+
+img {
+    width: 450px;
+    border-radius: 50px;
+    border: 5px solid rgb(94, 42, 12);
+    border-width: 10px;
+
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+hr {
+   height: 5px;
+   background-color: black;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        font-size: 100%
+    }
+    img {
+        width: 70%;
+        border-radius: 50px;
+        border: 5px solid rgb(94, 42, 12);
+        border-width: 50%;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+    h1 {
+        font-size: 100%
+    }
+    a {
+        padding: 2.5px;
+    }
+    p {
+        font-size: 10%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 780px) {
+    nav {
+        font-size: 100%
+    }
+    img {
+        width: 70%;
+        border-radius: 50px;
+        border: 5px solid rgb(94, 42, 12);
+        border-width: 50%;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+    h1 {
+        font-size: 100%
+    }
+    a {
+        padding: 2.5px;
+    }
+    p {
+        font-size: 75%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 376px) {
+    nav {
+        font-size: 100%
+    }
+    img {
+        width: 70%;
+        border-radius: 50px;
+        border: 5px solid rgb(94, 42, 12);
+        border-width: 50%;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+    h1 {
+        font-size: 100%
+    }
+    a {
+        padding: 2.5px;
+    }
+    p {
+        font-size: 75%;
+        padding: 5px;
+    }
+}
+@media (max-width: 450px) {
+    nav {
+        font-size: 100%
+    }
+    img {
+        width: 70%;
+        border-radius: 50px;
+        border: 5px solid rgb(94, 42, 12);
+        border-width: 50%;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+    h1 {
+        font-size: 100%
+    }
+    a {
+        padding: 2.5px;
+    }
+    p {
+        font-size: 75%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 950px) {
+    nav {
+        font-size: 50%
+    }
+    img {
+        width: 70%;
+        border-radius: 50px;
+        border: 5px solid rgb(94, 42, 12);
+        border-width: 50%;
+    }
+    div {
+        display: flex;
+        justify-content: space-around;
+    }
+    h1 {
+        font-size: 100%
+    }
+    a {
+        padding: 2.5px;
+    }
+    p {
+        font-size: 75%;
+        padding: 5px;
+    }
+}
